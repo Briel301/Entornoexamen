@@ -11,6 +11,10 @@ def index():
 def show_post(slug):
     return render_template("post_view.html", slug_title=slug)
 
+@app.route("/p/examen/")
+def show_post(slug):
+    return render_template("pag2.html", slug_title=slug)
+
 @app.route("/admin/post/")
 @app.route("/admin/post/<int:post_id>/")
 def post_form(post_id=None):

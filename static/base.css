@@ -30,3 +30,12 @@ a img {
 sup, sub {
     line-height: 0
 }
+nav {
+    background-color: brown;
+    text-align: center;
+    font-size: 2em;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
